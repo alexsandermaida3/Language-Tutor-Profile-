@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex — Trilingual Tutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <div class="logo">Alex<span>Teaches</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#method">Method</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button>
+      <button class="burger" onclick="toggleMenu()">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero reveal">
+  <div class="hero-content">
+    <h1>Learn English, French or Spanish — Fast & Naturally</h1>
+    <p class="subtitle">
+      I’m Alex, a trilingual tutor helping learners speak confidently through real conversation, smart corrections and zero judgment.
+    </p>
+    <p class="presentation">
+      Native French and Spanish, C1 in English — I specialize in helping motivated learners break the “I understand but I can’t speak” barrier.
+      Whether you need languages for work, travel or confidence, we build a plan that actually fits your life.
+    </p>
+    <a href="#booking" class="btn-primary">Book Your First Lesson</a>
+  </div>
+
+  <div class="hero-bubbles">
+    <div class="bubble en">EN</div>
+    <div class="bubble fr">FR</div>
+    <div class="bubble es">ES</div>
+    <svg class="hero-svg" viewBox="0 0 200 200">
+      <defs>
+        <linearGradient id="gradHero" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#0A84FF"/>
+          <stop offset="100%" stop-color="#F4B400"/>
+        </linearGradient>
+      </defs>
+      <circle cx="100" cy="100" r="80" fill="url(#gradHero)" opacity="0.18"/>
+      <path d="M60 80 H140 V120 H60 Z" fill="#0B0F19" stroke="#0A84FF" stroke-width="2" />
+      <circle cx="78" cy="96" r="5" fill="#0A84FF"/>
+      <circle cx="96" cy="96" r="5" fill="#E63946"/>
+      <circle cx="114" cy="96" r="5" fill="#F4B400"/>
+    </svg>
+  </div>
+</section>
+
+<section id="about" class="section reveal">
+  <h2>Who I Work Best With</h2>
+  <p class="centered">
+    You already know some English, French or Spanish — maybe you studied at school, on apps or at work — but you still don’t feel
+    natural when you speak. My job is to turn your “I hope I don’t make mistakes” into “I can handle this conversation”.
+  </p>
+</section>
+
+<section id="languages" class="section reveal">
+  <h2>Languages I Teach</h2>
+
+  <div class="cards">
+    <div class="card">
+      <div class="flag en"></div>
+      <h3>English (C1)</h3>
+      <p>Fluency, confidence and natural expressions for work, travel or everyday life.</p>
+    </div>
+
+    <div class="card">
+      <div class="flag fr"></div>
+      <h3>French (Native)</h3>
+      <p>Sound like a real French speaker — not a textbook. Pronunciation, rhythm and real phrases.</p>
+    </div>
+
+    <div class="card">
+      <div class="flag es"></div>
+      <h3>Spanish (Native)</h3>
+      <p>Dynamic, fun lessons focused on speaking from day one, with clear explanations.</p>
+    </div>
+  </div>
+</section>
+
+<section id="video" class="section reveal">
+  <h2>Video Introduction</h2>
+  <p class="centered">
+    Want to feel my vibe before booking? Here’s where your intro video will live.
+  </p>
+  <div class="video-card">
+    <div class="video-thumbnail">
+      <button class="play-button">▶</button>
+    </div>
+    <p class="video-note">Replace this with your YouTube or Loom video link when you’re ready.</p>
+  </div>
+</section>
+
+<section id="method" class="section reveal">
+  <h2>My Teaching Method</h2>
+
+  <div class="method-grid">
+    <div class="method-item">
+      <div class="icon-circle">
+        <span>💬</span>
+      </div>
+      <h3>Conversation First</h3>
+      <p>You learn by speaking, not by filling in gaps. Every lesson is built around real situations.</p>
+    </div>
+
+    <div class="method-item">
+      <div class="icon-circle">
+        <span>🎯</span>
+      </div>
+      <h3>Goal‑Based</h3>
+      <p>We define clear goals together: job interview, move abroad, exam, or pure fluency.</p>
+    </div>
+
+    <div class="method-item">
+      <div class="icon-circle">
+        <span>⚡</span>
+      </div>
+      <h3>Fast Feedback</h3>
+      <p>Instant corrections, simple explanations and phrases you can reuse immediately.</p>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="section reveal">
+  <h2>What Students Say</h2>
+
+  <div class="cards">
+    <div class="card">
+      <p>“I finally stopped translating in my head. After a few weeks, I was actually enjoying speaking English.”</p>
+      <span class="student">— Maria, Spain</span>
+    </div>
+    <div class="card">
+      <p>“Alex explains French in a way that feels simple and logical. My confidence grew so fast.”</p>
+      <span class="student">— Thomas, Germany</span>
+    </div>
+    <div class="card">
+      <p>“Our Spanish sessions feel like talking to a friend, but I learn something new every time.”</p>
+      <span class="student">— Chloe, UK</span>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="section reveal">
+  <h2>Pricing</h2>
+
+  <div class="pricing-grid">
+    <div class="price-card">
+      <h3>Single Lesson</h3>
+      <p class="price">20€ / 45 min</p>
+      <p>Try the vibe, ask questions, and see if we’re a good match.</p>
+    </div>
+
+    <div class="price-card highlight">
+      <h3>5‑Lesson Pack</h3>
+      <p class="price">90€</p>
+      <p>Best for fast progress and building a real habit.</p>
+    </div>
+
+    <div class="price-card">
+      <h3>Conversation Only</h3>
+      <p class="price">15€ / 30 min</p>
+      <p>Perfect if you already know the basics and just need to speak.</p>
+    </div>
+  </div>
+</section>
+
+<section id="booking" class="section reveal">
+  <h2>Booking</h2>
+  <p class="centered">
+    Choose a day that works for you and send me a quick message. I’ll confirm the time by email.
+  </p>
+
+  <div class="booking-layout">
+    <div class="mini-calendar">
+      <div class="calendar-header">
+        <span>Week</span>
+        <span>Mon – Sun</span>
+      </div>
+      <div class="calendar-grid">
+        <div class="slot">Mon<br><small>18:00</small></div>
+        <div class="slot">Tue<br><small>19:30</small></div>
+        <div class="slot">Wed<br><small>18:30</small></div>
+        <div class="slot">Thu<br><small>20:00</small></div>
+        <div class="slot">Sat<br><small>10:00</small></div>
+        <div class="slot disabled">Sun<br><small>Closed</small></div>
+      </div>
+      <p class="calendar-note">These are example times — you can adapt them to your real availability.</p>
+    </div>
+
+    <form class="booking-form">
+      <label>
+        Name
+        <input type="text" placeholder="Your name">
+      </label>
+      <label>
+        Email
+        <input type="email" placeholder="you@example.com">
+      </label>
+      <label>
+        Language
+        <select>
+          <option>English</option>
+          <option>French</option>
+          <option>Spanish</option>
+        </select>
+      </label>
+      <label>
+        Your goal
+        <textarea rows="3" placeholder="Tell me why you want to learn."></textarea>
+      </label>
+      <button type="submit" class="btn-primary">Request a Lesson</button>
+    </form>
+  </div>
+</section>
+
+<section id="contact" class="section contact reveal">
+  <h2>Contact</h2>
+  <p>Prefer to write directly? You can email me anytime.</p>
+  <a href="mailto:alex.tutor@example.com" class="btn-primary">Contact Me</a>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Alex — Trilingual Tutor</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
